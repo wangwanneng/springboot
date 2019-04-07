@@ -18,7 +18,7 @@ public class UserController {
 
     @RequestMapping("/hello")
     public String home(){
-        return "hello";
+        return "hello world";
     }
 
     @RequestMapping("/login")
